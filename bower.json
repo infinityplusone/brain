@@ -1,0 +1,33 @@
+{
+  "name": "brain",
+  "version": "0.1.0",
+  "title": "Brain",
+  "description": "Primary namespace for brainy experiments.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infinityplusone/brain.git"
+  },
+  "authors": [
+    "Jonathan \"Yoni\" Knoll"
+  ],
+  "license": "LicenseRed-README.md",
+  "homepage": "https://github.com/infinityplusone/brain.git",
+  "moduleType": [],
+  "private": true,
+  "dependencies": {
+    "brainybars": "git@github.com:infinityplusone/brainybars",
+    "jquery": "*",
+    "jquery-enable": "*",
+    "lodash": "*",
+    "lodash-inflection": "^1.3.2",
+    "requirejs": "^2.1.22"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "tasks"
+  ]
+}

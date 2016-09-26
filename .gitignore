@@ -1,0 +1,7 @@
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+### generated & installed files
+/node_modules
+/bower_components
