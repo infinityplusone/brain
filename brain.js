@@ -21,9 +21,15 @@ requirejs.config({
     'lodash-inflection':    'bower_components/lodash-inflection/lib/lodash-inflection',
 
     // these come from infinityplusone
-    'brainybars':           'bower_components/brainybars/brainybars',
-    'brain':                'bower_components/brain/brain'
+    'brainybars':           'bower_components/brainybars',
+    'brain':                'bower_components/brain'
   },
+  packages: [
+    {
+      name: 'brain',
+      main: 'brain'
+    },
+  ],
   shim: {
     'jquery-bindable':      { deps: [ 'jquery' ] },
     'lodash-inflection':    { deps: [ 'lodash' ] },
